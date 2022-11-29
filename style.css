@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+nav ul a{
+  text-decoration: none;
+  padding: 8px;
+
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+input{
+  margin: 5px;
+  color: gray;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
